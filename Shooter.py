@@ -224,7 +224,7 @@ def show_go_screen():
     screen.blit(background,background_rect)
     draw_text(screen,"Space Shooter",64,WIDTH/2,HEIGHT/4)
     draw_text(screen,"Arrow keys to move and space to fire.",22,WIDTH/2,HEIGHT/2)
-    draw_text(screen,"Shield powerup grants energy, Lightning gives dual wield lasers",22,WIDTH/2,HEIGHT/2+100)
+    draw_text(screen,"Shield powerup grants energy, Lightning gives dual wield lasers",16,WIDTH/2,HEIGHT/2+50)
     draw_text(screen,"Press a key to begin, Made by Dhruv97",18,WIDTH/2,HEIGHT*3/4)
     pygame.display.flip()
     waiting=True
