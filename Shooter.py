@@ -253,8 +253,8 @@ explosion_anim={}
 explosion_anim['lg']=[]
 explosion_anim['sm']=[]
 explosion_anim['player']=[]
-for i in range(9):
-    filename='explosion0{}.png'.format(i)   #loop for running through explosion files
+for i in range(9):   #loop for running through explosion files
+    filename='explosion0{}.png'.format(i)
     img=pygame.image.load(path.join(img_dir,filename)).convert()
     img.set_colorkey(BLACK)
     img_lg=pygame.transform.scale(img,(60,60))
@@ -298,7 +298,7 @@ while running:
         powerups=pygame.sprite.Group()
         player=Player()             #spawning
         all_sprites.add(player)
-        for i in range(8):
+        for i in range(12):
             newmob()
         score=0 #score 0
     #loop running at speed
