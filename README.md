@@ -15,7 +15,7 @@ About-
 4. Lightning powerups give you a dual wield laser
 5. You have 3 lives
 
-Made by @dhruv97 on telegram, contact me for more info. Totally Open Source, use wherever you want.
+
 
 All graphics and sounds have been credited to their respective authors
 #Frozen Jam by tgfcoder <https://twitter.com/tgfcoder> licensed under CC-BY-3
